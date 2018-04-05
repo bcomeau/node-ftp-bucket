@@ -33,7 +33,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "TBD"
+    "url": "https://github.com/bcomeau/node-ftp-bucket"
   },
   "license": "MIT"
 }
