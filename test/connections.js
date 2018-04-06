@@ -2,12 +2,12 @@ const should = require('should');
 const fs = require('fs');
 
 let connectionUrls = {};
-connectionUrls.ftp = process.env.FTP_URL;
 connectionUrls.sftp = process.env.SFTP_URL;
+connectionUrls.ftp = process.env.FTP_URL;
 
 describe('Test each connections individually', function() {
 
-    this.timeout(10000);
+    this.timeout(60000);
 
     Object.keys(connectionUrls).forEach((key) => {
         context('For ' + key + ' connection', () => {
