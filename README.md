@@ -1,4 +1,6 @@
 # FTP Bucket
+[![Build Status](https://travis-ci.org/bcomeau/node-ftp-bucket.svg?branch=master)](https://travis-ci.org/bcomeau/node-ftp-bucket)
+[![npm version](https://img.shields.io/npm/v/ftp-bucket.svg?style=flat)](https://www.npmjs.com/package/ftp-bucket)
 
 A simple file storage for NodeJS using a FTP server.
 
